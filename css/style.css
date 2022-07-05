@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    background-color: #121b2a
+    ;
+}
+.wrapper{
+
+    /* border:5px solid red; */
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo{
+    width: 15%;
+    /* border:2px solid yellow; */
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+
+.menu{
+    margin-top: 25px;
+    width: 70%;
+    /* border:2px solid hitew; */
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 17px 34px;
+    display: block;
+    color: white;
+    transition: .5s;
+}
+.menu ul li a:hover{
+    color: blue;
+}
+
+
+
+/* banner start */
+
+
+.banner{
+background-image:url(../images/bg.png);
+background-size: cover;
+background-repeat: no-repeat;
+/* background: no-repeat;
+background-size: cover; */
+background-position: top center;
+min-height: 700px;
+
+
+}
+
+.banner_content{
+margin-top: 200px;
+
+width: 40%;
+}
+.banner_content h1{
+    color:blue ;
+    font-size: 25px;
+}
+
+    
+.banner_content h2{
+    color: white;
+    font-size: 25px;
+}
+
+.banner_content p{
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.banner button{
+    padding: 10px 10px;
+}
+
+  
+/* banner end */
+
+/* service start */
+.service{
+background-color: #040811;
+border:5px solid green
+padding: 50px 0;
+height: 300px;
+margin: 0 audio;
+}
+.single{
+
+width: 21%;
+padding: 33px 20px;
+
+
+float: left;
+}
+.title{
+overflow: hidden;
+}
+.icon{
+width: 25%;
+float: left;
+}
+.icon img{
+width: 100%;
+}
+
+.icon-content{
+    width: 65%;
+    float: left;
+    margin-top: 7px;
+}
+
+
+.icon-content h1{
+   color: white; 
+   text-transform: capitalize;
+   font-family: serif;
+   font-size: 20px;
+   font-weight: normal;
+   margin-left: 16px;
+}
+
+.icon-content h2{
+    color:blue; 
+   text-transform: capitalize;
+   font-family: serif;
+   font-size: 20px;
+   font-weight: normal;
+   margin-left: 16px;
+}
+
+
+
+.content{
+ 
+    
+}
+
+
+.content p{
+    color: white;
+    font-family: serif;
+    line-height: 1.5;
+}
+/* service end */
+
+/* footer start */
+
+.footer{
+
+    background-color: #121b2c;
+    height: 100px;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.footer pre{
+    margin-top: 20px;
+    color: white;
+}
+.footer p{
+    font-size: 10px;
+    color: white;
+}
+/* footer end */
